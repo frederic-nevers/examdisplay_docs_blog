@@ -1,1 +1,52 @@
 /** Custom styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;900&display=swap');
+
+.header-bar {
+  display: none
+}
+
+.content {
+ padding-top: 2rem;
+}
+
+.navbar {
+  background-color: #3D507B;
+}
+
+.navbar-light .navbar-brand,
+.nav-item > a.nav-link,
+.nav-item > .nav-link.active:hover {
+  color: white
+}
+
+.navbar-light .navbar-brand:hover,
+.nav-item > .nav-link.active,
+.nav-item > a.nav-link:hover {
+  color: #58BAF1
+}
+
+.docs-content {
+  background-color: white;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary .active {
+  color: white
+}
+
+.card-header {
+  background-color: #616878;
+  color: white;
+  text-transform: uppercase
+}
+
+.card-text {
+  font-weight: 300;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.docs-links::-webkit-scrollbar-track, .docs-toc::-webkit-scrollbar-track {
+  background-color: #e9eef2;
+}
