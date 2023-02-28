@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /** Import Bootstrap functions */
 /** Import theme variables */
 /** Bootstrap navbar fix (https://git.io/fADqW) */
@@ -11830,5 +11831,25 @@ a.docs-link {
 
 .docs-links::-webkit-scrollbar-track, .docs-toc::-webkit-scrollbar-track {
   background-color: #e9eef2; }
+
+ol li {
+  font-weight: 300;
+  padding-left: 0.5em; }
+
+ol li:nth-child(1)::marker {
+  content: "➊";
+  color: #F7D14B;
+  font-size: 2rem; }
+
+ol li:nth-child(2)::marker {
+  content: "➋";
+  font-family: "Roboto";
+  color: #D6317A;
+  font-size: 2rem; }
+
+ol li:nth-child(3)::marker {
+  content: "➌";
+  color: #EC602E;
+  font-size: 2rem; }
 
 /*# sourceMappingURL=main.css.map */
